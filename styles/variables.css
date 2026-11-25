@@ -1,1 +1,31 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: 'Inter', Arial, sans-serif;
+  --accent-font: 'PressStart2P', 'Courier New', monospace;
+  --main-text-weight: 400;
+  --card-title-weight: 700;
+  --content-width: clamp(375px, 100%, 700px);
+  --background-gradient:
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --background-color: #fff;
+  --text-color: #000;
+  --accent-color: #000;
+  --button-text-color: #fff;
+  --button-background-color: #fff;
+  --label-color: #fff;
+  --label-stroke-color: #000;
+  --contour-color: #000;
+  --animation-fill-color: #f00;
+  --logo-font-size: clamp(45px, 7vw, 65px);
+  --subtitle-font-size: clamp(14px, 2.5vw, 23px);
+  --header-min-height: clamp(320px, 45vw, 340px);
+}
