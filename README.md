@@ -1,3 +1,3 @@
 # Закрывающий тег
 
-https://midicowbell.github.io/zakrivayuschiy-teg-ad/
+https://github.com/midicowbell/zakrivayuschiy-teg-ad
